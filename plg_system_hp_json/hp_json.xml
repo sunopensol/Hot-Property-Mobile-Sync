@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install version="1.5" type="plugin" group="system">
+	<name>System - Sunsol Sync Plugin for iPhone and Hot Property</name>
+	<author>Sunshine Open Solutions</author>
+	<creationDate>January 2010</creationDate>
+	<copyright>Copyright (C) 2010 Sunshine Open Solutions. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@sunopensol.com</authorEmail>
+	<authorUrl>www.sunopensol.com</authorUrl>
+	<version>0.9</version>
+	<description>Allows Hot Property Sync via JSON</description>
+	<files>
+		<filename plugin="hp_json">hp_json.php</filename>
+		<filename>hp_json.xml</filename>
+		<filename>hp_json/sync.php</filename>
+	</files>
+</install>
