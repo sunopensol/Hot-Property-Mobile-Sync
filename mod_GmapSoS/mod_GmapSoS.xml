@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
 <install type="module" version="1.5.0">
+<!-- based on ModuleMap by Benjamin Haettasch 
+http://joomlacode.org/gf/project/mod_googlemap/ -->
     <name>ModuleMap SunSol</name>
-    <author>Benjamin Haettasch</author>
-    <version>0.5</version>
+    <author>Tom Lancaster</author>
+    <authorEmail>tom@sunopensol.com</authorEmail>
+    <authorUrl>http://www.sunopensol.com</authorUrl>
+    <version>0.6</version>
     <description>Displays a GoogleMap</description>
+    
     <files>
-        <filename module="mod_GoogleMapSunSol">mod_GoogleMapSunSol.php</filename>
+        <filename module="mod_GmapSoS">mod_GmapSoS.php</filename>
     </files>
     <languages>
-        <language tag="en-GB">language/en-GB/en-GB.mod_GoogleMapSunSol.ini</language>
-        <language tag="de-DE">language/de-DE/de-DE.mod_GoogleMapSunSol.ini</language>
-        <language tag="fr-FR">language/fr-FR/fr-FR.mod_GoogleMapSunSol.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.mod_GmapSoS.ini</language>
+        <language tag="de-DE">language/de-DE/de-DE.mod_GmapSoS.ini</language>
+        <language tag="fr-FR">language/fr-FR/fr-FR.mod_GmapSoS.ini</language>
     </languages>
     <params>
        	<param name="key" type="text" default="" label="KEY"></param>
@@ -58,7 +64,7 @@
 			<option value="1">YES</option>
 		</param>
 
-		<param name="draging" type="radio" default="1" label="DRAGING">
+		<param name="dragging" type="radio" default="1" label="DRAGING">
 			<option value="0">NO</option>
 			<option value="1">YES</option>
 		</param>
