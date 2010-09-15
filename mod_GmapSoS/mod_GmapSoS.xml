@@ -3,12 +3,12 @@
 <install type="module" version="1.5.0">
 <!-- based on ModuleMap by Benjamin Haettasch 
 http://joomlacode.org/gf/project/mod_googlemap/ -->
-    <name>ModuleMap SunSol</name>
+    <name>Gmap SoS</name>
     <author>Tom Lancaster</author>
     <authorEmail>tom@sunopensol.com</authorEmail>
     <authorUrl>http://www.sunopensol.com</authorUrl>
     <version>0.6</version>
-    <description>Displays a GoogleMap</description>
+    <description>Displays a GoogleMap with KML overlays from a URL</description>
     
     <files>
         <filename module="mod_GmapSoS">mod_GmapSoS.php</filename>
